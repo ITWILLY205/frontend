@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Professional portfolio website with admin dashboard",
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run start\"",
+    "server": "cd backend && node server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
